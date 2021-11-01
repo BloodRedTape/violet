@@ -12,4 +12,4 @@ set(VIOLET_SOURCES
 )
 
 add_executable(violet ${VIOLET_SOURCES})
-target_link_libraries(violet sfml-system sfml-network)
+target_link_libraries(violet sfml-system sfml-network fmt)
